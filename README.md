@@ -1,1 +1,542 @@
-# newprj
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/norm.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <a name="home"></a>
+   <header> 
+      
+      <div class="container"> 
+            <div class="header-menu__icon">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <div class="header-menu">
+            </div>
+            
+         <div class="header">
+
+               <div class="header-lang">
+                  <span><a href="" class="header-top-lang-item__logo"><img class="logo" src="img/logo.svg" alt="logo"></a></span>
+               </div>
+               <div class="header-lang header-lang-menu">
+                  <div class="header-lang-item header-lang-item_menu">главная</div>
+                  <div class="header-lang-item header-lang-item_menu">аукцион</div>
+                  <div class="header-lang-item header-lang-item_menu">о проекте</div>
+                  <div class="header-lang-item header-lang-item_menu">партнерам</div>
+                  <div class="header-lang-item header-lang-item_menu">контакты</div>
+               </div>
+               <div class="header-lang type-to-open-reg">
+                  <img src="img/globe.webp" alt="" class="iconreg">
+                  <div class="header-lang-item__reg" id="header-lang-item__reg" >выбор региона</div>
+               </div>
+               <div class="header-lang">
+                  <div class="header-lang-item">
+                     <div class="header-lang-item__menu">
+                        <img src="img/chel.svg" alt="" class="iconprof">
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         <div class="specilacont">
+            <div class="menu-short hidden">
+               <div class="menu-short-list">
+                  <div class="menu-short-list__item chose-reg">Выбор региона</div>
+                  <div class="menu-short-list__item">Личный кабинет</div>
+                  <div class="menu-short-list__item">Мои ставки</div>
+                  <div class="menu-short-list__item">Мои лоты</div>
+               </div>
+            </div>
+         </header>
+         
+         <div class="flex">
+            <div class="slider">
+               <div class="slider__item">
+                  <div class="preview">
+                     <div class="preview-container">
+                        <div class="preview-lang">
+                           <div class="preview-lang-item">
+                              <div class="preview-lang-item__prevtitle">Только эксклюзивные</div>
+                           </div>
+                        </div>
+                        <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <div class="preview-lang-item__title">Лоты под аукцион и свобоДную продажу</div>
+                         </div>
+                      </div>
+                      <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <div class="preview-lang-item__text">Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещей</div>
+                         </div>
+                      </div>
+                      <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <a href="" class="preview-lang-item__butn btn" ><span class="btn__body"><span>Присоединится</span></span></a>
+                         </div>
+                      </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="slider__item">
+                  <div class="preview">
+                     <div class="preview-container">
+                        <div class="preview-lang">
+                           <div class="preview-lang-item">
+                              <div class="preview-lang-item__prevtitle">Только эксклюзивные</div>
+                           </div>
+                        </div>
+                        <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <div class="preview-lang-item__title">Лоты под аукцион и свобоДную продажу</div>
+                         </div>
+                      </div>
+                      <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <div class="preview-lang-item__text">Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещейМы собираем эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещей</div>
+                         </div>
+                      </div>
+                      <div class="preview-lang">
+                         <div class="preview-lang-item">
+                            <a href="" class="preview-lang-item__butn btn" ><span class="btn__body"><span>Присоединится</span></span></a>
+                         </div>
+                      </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <div class="romb-block">
+           <div class="romb-convert">
+              <div class="romb">
+                 <div class="romb-nav">
+                    <div class="romb-nav-item"><img src="img/strelochka.svg" alt="" class="left-strelochka"></div>
+                    <div class="romb-nav-item"><img src="img/6.svg" alt="" class="center-strelochka"></div>
+                    <div class="romb-nav-item"><img src="img/str-r.svg" alt="" class="right-strelochka"></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="enter type-to-open-reg-wind">
+           <div class="modal-bg-cover">
+           </div>
+        </div>
+        <div class="wrapper">
+           <div class="lot-wrapper">
+              <div class="lot-lang">
+                 <div class="lot-lang-item__popular">Популярные</div>
+              </div>
+              <div class="lot-lang">
+               <div class="lot-lang-item__title">лоты Под аукцион</div>
+              </div>
+              <div class="lot-lang">
+               <div class="lot-lang-item__dec lot-lang-item-dec__vseloti">
+                  <div class="lot-lang-decor__1"></div>
+                  <div class="lot-lang-decor__2"></div>
+                  <div class="lot-lang-decor__3"></div>
+                  <div class="lot-lang-decor__4"></div>
+                  <div class="lot-lang-decor__clock">
+                     <img src="img/chasi.jpg" alt="">
+                  </div>
+                  <div class="lot-lang-decor__4"></div>
+                  <div class="lot-lang-decor__3"></div>
+                  <div class="lot-lang-decor__2"></div>
+                  <div class="lot-lang-decor__1"></div>
+               </div>
+              </div>
+              <div class="lot-lang">
+               <div class="lot-lang-item">
+                  <div class="lot-lang-item-collumn">
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__lot"><img src="img/lot1.png" alt=""></div>
+                     </div>
+                     <div class="romb-block">
+                        <div class="romb-convert">
+                           <div class="romb">
+                              <div class="romb-navforbet">
+                                 <div class="romb-nav-item"><img src="img/pesoch.svg" alt="" class="pesoch"></div>
+                                 <div class="romb-nav-item timer" id="timer1"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__textposition">
+                           Arnold & Son Worldtimer discovery of antarctica
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="eye"><img src="img/fishkaleftglaz.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">1098</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="lot-lang-item-collumn-step-box">
+                              <div class="rombborder"></div>
+                              <div class="teku bravo">текущая ставка</div>
+                              <div class="price bravo">18 999 203</div>
+                              <div class="volute bravo">&#8381</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="palm"><img src="img/fishkarightladon.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">75</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="preview-lang">
+                           <div class="preview-lang-item">
+                              <a href="" class="preview-lang-item__butn btn pris" ><span class="btn__body"><span class="black">Присоединится</span></span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="lot-lang-item">
+                  <div class="lot-lang-item-collumn">
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__lot"><img src="img/lot2.png" alt=""></div>
+                     </div>
+                     <div class="romb-block">
+                        <div class="romb-convert">
+                           <div class="romb">
+                              <div class="romb-navforbet">
+                                 <div class="romb-nav-item"><img src="img/pesoch.svg" alt="" class="pesoch"></div>
+                                 <div class="romb-nav-item timer" id="timer2"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__textposition">
+                           Chateau Lafite 1949
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="eye"><img src="img/fishkaleftglaz.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">756</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="lot-lang-item-collumn-step-box">
+                              <div class="rombborder"></div>
+                              <div class="teku bravo">текущая ставка</div>
+                              <div class="price bravo">245 050</div>
+                              <div class="volute bravo">&#8381</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="palm"><img src="img/fishkarightladon.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">3</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="preview-lang">
+                           <div class="preview-lang-item">
+                              <a href="" class="preview-lang-item__butn btn pris" ><span class="btn__body"><span class="black">Присоединится</span></span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="lot-lang-item">
+                  <div class="lot-lang-item-collumn">
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__lot"><img src="img/lot3.png" alt=""></div>
+                     </div>
+                     <div class="romb-block">
+                        <div class="romb-convert">
+                           <div class="romb">
+                              <div class="romb-navforbet">
+                                 <div class="romb-nav-item"><img src="img/pesoch.svg" alt="" class="pesoch"></div>
+                                 <div class="romb-nav-item timer" id="timer3"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__textposition">
+                           Rolex Paul Newman Daytona
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="eye"><img src="img/fishkaleftglaz.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">11</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="lot-lang-item-collumn-step-box">
+                              <div class="rombborder"></div>
+                              <div class="teku bravo">текущая ставка</div>
+                              <div class="price bravo">3 245 000</div>
+                              <div class="volute bravo">&#8381</div>
+                           </div>
+                        </div>
+                        <div class="lot-lang-item-collumn-step__opisposition">
+                           <div class="palm"><img src="img/fishkarightladon.svg" alt=""></div>
+                           <div class="schet">
+                              <div class="schet-item bravo">3</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="lot-lang-item-collumn-step">
+                        <div class="preview-lang">
+                           <div class="preview-lang-item">
+                              <a href="" class="preview-lang-item__butn btn pris" ><span class="btn__body"><span class="black">Присоединится</span></span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              </div>
+              <div class="lot-all-wrapper">
+               <div class="lot-lang">
+                  <div class="lot-lang-item__dec">
+                     <div class="lot-lang-decor"><img src="../img2/levo.svg" alt=""></div>
+                     <div class="lot-lang-decor__2"></div>
+                     <div class="lot-lang-decor__lot"> все лоты
+                     </div>
+                     <div class="lot-lang-decor__2"></div>
+                     <div class="lot-lang-decor"><img src="../img2/pravo.svg" alt=""></div>
+                  </div>
+                 </div>
+              </div>
+              <div class="grid-wrapper">
+                 <div class="grid-lang grid-lang1">
+                    <div class="grid-lang-item">
+                       <div class="grid-lang-item-elem"><img src="../img2/11.svg" alt=""></div>
+                       <div class="grid-lang-item-elem">часы</div>
+                       <div class="grid-lang-item-elem">
+                        <div class="lot-lang">
+                           <div class="lot-lang-item__dec">
+                              <div class="lot-lang-decor__1 alllot"></div>
+                              <div class="lot-lang-decor__3 alllot3"></div>
+                              <div class="lot-lang-decor__1 alllot"></div>
+                           </div>
+                          </div>
+                       </div>
+                       <div class="grid-lang-item-elem">
+                       </div>
+                    </div>
+                 </div>
+                 <div class="grid-lang grid-lang2">
+                  <div class="grid-lang-item grid-lang-item2">
+                     <div class="grid-lang-item-elem"><img src="../img2/22.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">ювелирные изделия</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang3">
+                  <div class="grid-lang-item grid-lang-item3">
+                     <div class="grid-lang-item-elem"><img src="../img2/33.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">автотранспорт и лодки</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang4">
+                  <div class="grid-lang-item grid-lang-item4">
+                     <div class="grid-lang-item-elem"><img src="../img2/44.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">аксесуары</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang5">
+                  <div class="grid-lang-item grid-lang-item5">
+                     <div class="grid-lang-item-elem"><img src="../img2/55.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">недвижимость</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang6">
+                  <div class="grid-lang-item grid-lang-item6">
+                     <div class="grid-lang-item-elem"><img src="../img2/66.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">Hi-Tech</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang7">
+                  <div class="grid-lang-item grid-lang-item7">
+                     <div class="grid-lang-item-elem"><img src="../img2/77.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">одежда и обувь</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang8">
+                  <div class="grid-lang-item grid-lang-item8">
+                     <div class="grid-lang-item-elem"><img src="../img2/88.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">предметы исскуства</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+               <div class="grid-lang grid-lang9">
+                  <div class="grid-lang-item grid-lang-item9">
+                     <div class="grid-lang-item-elem"><img src="../img2/99.svg" alt=""></div>
+                     <div class="grid-lang-item-elem">алкоголь и еда</div>
+                     <div class="grid-lang-item-elem">
+                      <div class="lot-lang">
+                         <div class="lot-lang-item__dec">
+                            <div class="lot-lang-decor__1 alllot"></div>
+                            <div class="lot-lang-decor__3 alllot3"></div>
+                            <div class="lot-lang-decor__1 alllot"></div>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="grid-lang-item-elem">
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+              </div>
+              <div class="lot-lang vrem-margin">
+                 <div class="lot-lang-item ">
+                    <div class="lot-lang-item-element"></div>
+                    <div class="lot-lang-item-element">
+                       <div class="zavlek-text">
+                        Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.
+                        <br><br>
+                        Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.
+                        <br><br>
+                        Муниципальной недвижимости, в том числе квартир. Общий объем сделок в мире на аукционах по продаже недвижимости варьируется от 30% до 80%.
+                     </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           
+        </div>
+        <div class="modal-wrap type-to-open-reg-wind">
+           <div class="modal">
+              <div class="px-20 py-20">
+               <div class="flex justify-between">
+                  <div class="modal-heading">выберите город</div>
+                  <div class="close">
+                  </div>
+               </div>
+               <hr class="m-15">
+               <div class="confirm-favourite-city">
+                  <span class="set-city" id="1">МОСКВА</span>
+                  <span class="set-city" id="2">САНКТ-ПЕТЕРБУРГ</span>
+                  <span class="set-city" id="3">НОВОСИБИРСК</span>
+                  <span class="set-city" id="4">ЕКАТЕРИНБУРГ</span>
+                  <span class="set-city" id="5">НИЖНИЙ НОВГОРОД</span>
+                  <span class="set-city" id="6">КАЗАНЬ</span>
+                  <span class="set-city" id="7">САМАРА</span>
+                  <span class="set-city" id="8">ЧЕЛЯБИНСК</span>
+                  <span class="set-city" id="9">ОМСК</span>
+                  <span class="set-city" id="10">РОСТОВ-НА-ДОНУ</span>
+                  <span class="set-city" id="11">УФА</span>
+                  <span class="set-city" id="12">ВОЛГОГРАД</span>
+                  <span class="set-city" id="13">КРАСНОЯРСК</span>
+                  <span class="set-city" id="14">ПЕРМЬ</span>
+                  <span class="set-city" id="15">ВОРОНЕЖ</span>
+               </div>
+              </div>
+           </div>
+        </div>
+
+
+
+
+        
+   <script src="js/jq.js"></script>
+   <script src="js/main.js"> </script>
+   <script src="js/slick.min.js"> </script>
+</body>
+</html>
+
+
+
+
